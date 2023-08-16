@@ -14,7 +14,7 @@ from sklearn.metrics.pairwise import cosine_similarity
 import requests
 
 
-movies = pd.read_csv("tmdb_movies.csv")
+movies = pd.read_csv("https://github.com/shubhamjangid1995/shubhamdots/blob/main/tmdb_movies.csv")
 
 movies['tags']  = movies['overview'] + movies['genre']
 
