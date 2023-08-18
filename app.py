@@ -31,7 +31,7 @@ st.set_page_config(page_title ="Movie Recommendation System",page_icon=":tada", 
 
 st.header("Movie Recommender System")
 
-imagepath = "/home/shubham/projects/Recommendation_system/carousal.png"
+imagepath = "https://github.com/shubhamjangid1995/shubhamdots/blob/main/carousal.png"
 st.image(imagepath)
 
 #creating a dropdown list of movies
